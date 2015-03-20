@@ -9,12 +9,12 @@ A pre-built image is available at the [Docker Hub Registry](https://registry.hub
 
 ```
 docker run \
-         -e SETTINGS_FLAVOR=s3 \
-         -e AWS_BUCKET=mybucket \
-         -e STORAGE_PATH=/registry \
-         -e AWS_KEY=myawskey \
-         -e AWS_SECRET=myawssecret \
-         -e SQLALCHEMY_INDEX_DATABASE=postgresql://user:pass@postgres_host/docker_registry \
-         -p 5000:5000 \
-         jsallis/docker-registry-postgres
+    -e SETTINGS_FLAVOR=s3 \
+    -e AWS_BUCKET=mybucket \
+    -e STORAGE_PATH=/registry \
+    -e AWS_KEY=myawskey \
+    -e AWS_SECRET=myawssecret \
+    -e SQLALCHEMY_INDEX_DATABASE=postgresql://user:pass@postgres_host/docker_registry \
+    -p 5000:5000 \
+    jsallis/docker-registry-postgres
 ```
