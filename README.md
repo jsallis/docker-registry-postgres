@@ -1,5 +1,7 @@
 # docker-registry-postgres
 
+## This repository is based on a now deprecated version of the docker registry. It is recommended to use newer versions (>= 2) of the [docker registry](https://github.com/docker/distribution) instead.
+
 A containerized docker registry based on the [official image](https://registry.hub.docker.com/_/registry/),
 pre-configured with Postgres support for search indexing
 
