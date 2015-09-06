@@ -1,4 +1,4 @@
-FROM registry
+FROM registry/0.9.1
 
 MAINTAINER Jason Sallis <jason@sall.is>
 
